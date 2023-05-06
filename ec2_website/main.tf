@@ -42,7 +42,7 @@ user_data = <<-EOF
 }
 # Security group
 resource "aws_security_group" "web_sg" {
-  name = "Ec2 instance sg"
+  name = "Ec2 instance sgr"
   ingress {
     from_port = 80
     to_port = 80
