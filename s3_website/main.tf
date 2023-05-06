@@ -14,7 +14,7 @@ provider "aws" {
 
 # Creating bucket
 resource "aws_s3_bucket" "website" {
-  bucket = "terraform-katya-s3-bucket"
+  bucket = "terraform-katya-s3-bucket1"
   tags = {
     Name = "Website"
     Environment = "Dev"
